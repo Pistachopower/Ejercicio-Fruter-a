@@ -5,8 +5,10 @@ public class ventaFuteriaAnual {
 	public static void main(String[] args) {
 	
 	//se definen dos constantes con un tipo de dato primitivo con los valores establecidos para la operacion 
-	final double precioM= 2.35;
-	final double precioP= 1.95;
+	
+	//RECUERDA QUE LAS CONSTANTES VAN EN MAYÚSCULAS POR ESTILO DE JAVA
+	final double PRECIOM= 2.35;
+	final double PRECIOP= 1.95;
 	
 	//se define el tipo double porque se solicita las ventas en kilos
 	double manzanaPrimer,manzanaSegundo, peraPrimer, peraSegundo;
@@ -44,9 +46,9 @@ public class ventaFuteriaAnual {
 	 * 
 	 */
 	
-	double opMan= precioM * manzanaPrimer + precioM * manzanaSegundo;
+	double opMan= PRECIOM * manzanaPrimer + PRECIOM * manzanaSegundo;
 		
-	double opPer= precioP * peraPrimer + precioP * peraSegundo; 
+	double opPer= PRECIOP * peraPrimer + PRECIOP * peraSegundo; 
 	
 	double totalAnual= opMan + opPer;
 	
